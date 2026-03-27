@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0; 
+	background-color: aquamarine;
+}
+.container {
+	background-color: hotpink;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	border-radius: .5rem;
+	width: 90rem;
+	max-width: 100%;
+}
+
+#div-btn {
+	text-align: center;
+}
+button, input {
+	margin-top: 2.5%;
+	margin-left: 20px;
+	background-color: hotpink;
+	border-radius: 10px;
+	font-size: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: none;
+	color: aquamarine;
+}
+
+.timer {
+	position: absolute;
+	display: inline;
+	top: 2rem;
+	font-size: 3rem;
+	color: hotpink;
+	font-weight: bold;
+}
+.wpm {
+	position: relative;
+	display: inline;
+	top: 2rem;
+	font-size: 3rem;
+	color: hotpink;
+	font-weight: bold;
+	margin-left: 70%;
+}
+#btn {
+
+}
+
+#wpm {
+	position: absolute;
+}
+
+.quote-display{
+	margin-bottom: 1rem;
+	margin-left: calc(1rem + .5rem);
+	margin-right: calc(1rem + 2rem);
+	font-size: 2.5rem;
+	font-family: "Gill Sans", sans-serif;
+	align-self: center;
+}
+
+.quote-input {
+	background-color: transparent;
+	border: 5px solid aquamarine;
+	border-radius: .5rem;
+	font-size: 2.5rem;
+	font-family: "Times New Roman", Times, serif;
+	outline: none;
+	width: 100%;
+	height: 8rem;
+	margin: auto;
+	resize: none;
+	padding: .5rem 1rem;
+}
+
+.quote-input:focus{
+	border-color: black;
+}
+
+.correct {
+	color: green;
+}
+
+.incorrect {
+	color: red;
+	text-decoration: underline;
+}
